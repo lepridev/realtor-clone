@@ -10,7 +10,7 @@ const Header = () => {
 		}
 	};
 	return (
-		<div>
+		<div className="bg-white border-b shadow-sm sticky top-0 z-50">
 			<header className="flex justify-between items-center px-3 max-w-6xl mx-auto">
 				<div>
 					<img
@@ -44,7 +44,7 @@ const Header = () => {
 							}`}
 							onClick={() => navigate("/sign-in")}
 						>
-							SignIn
+							Sign In
 						</li>
 					</ul>
 				</div>
